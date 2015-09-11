@@ -119,10 +119,10 @@ console.log('Getting user media with constraints', constraints);
 //  requestTurn('https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913');
 //}
 
-if (location.hostname != "192.168.56.101") {
-  console.log(location.hostname);
-  requestTurn('https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913');
-}
+//if (location.hostname != "192.168.56.101") {
+//  console.log(location.hostname);
+//  requestTurn('https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913');
+//}
 
 function maybeStart() {
   if (!isStarted && typeof localStream != 'undefined' && isChannelReady) {
